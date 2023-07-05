@@ -1,7 +1,9 @@
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 import { useState, } from 'react';
 import Header from './componenets/Header';
 import Tasks from './componenets/Tasks';
+import Navbar from './componenets/Navbar';
 
 function App() {
   const [tasks, setTasks] = useState([
@@ -19,12 +21,9 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <Header />
-      { tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask}/>) : (
-        'no stasks to show'
-      )}
-    </div>
+    <BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
   );
 }
 
