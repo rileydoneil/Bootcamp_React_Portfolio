@@ -4,6 +4,7 @@ import { useState, } from 'react';
 import Header from './componenets/Header';
 import Tasks from './componenets/Tasks';
 import Navbar from './componenets/Navbar';
+import Footer from './componenets/Footer';
 
 function App() {
   const [tasks, setTasks] = useState([
@@ -21,9 +22,12 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
-      <Navbar />
-    </BrowserRouter>
+    <div>
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
+      <Footer/>
+    </div>
   );
 }
 
