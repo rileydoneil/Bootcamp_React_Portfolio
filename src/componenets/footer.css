@@ -1,0 +1,13 @@
+.footer {
+    background-color: #4B4E6D;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
