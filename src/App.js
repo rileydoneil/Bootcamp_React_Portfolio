@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import { useState, } from 'react';
-import Navbar from './componenets/Navbar';
-import Footer from './componenets/Footer';
-import Projects from './componenets/Projects';
-import Resume from './pages/Resume';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
-      <Resume/>
+      <Contact/>
       <Projects/>
       <Footer/>
     </div>

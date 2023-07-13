@@ -1,5 +1,5 @@
 import { BsLinkedin, BsGithub, BsTwitter} from "react-icons/bs";
-import './footer.css'
+import './style.css'
 
 
 const Footer = () => {
