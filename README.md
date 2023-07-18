@@ -44,8 +44,8 @@ Contributions to this project are welcome! If you find any issues or have sugges
 I watched many videos and learned small aspects in each and are credited here:
 - [React Project Tutorial](https://www.youtube.com/watch?v=bmpI252DmiI&t=2463s&pp=ygUPcmVhY3QgcG9ydGZvbGlv)
 - [React Project Tutorial](https://www.youtube.com/watch?v=hYv6BM2fWd8&t=3474s&pp=ygUPcmVhY3QgcG9ydGZvbGlv)
-For displaying PDFs in React, I used the following resources:
-- [levelup](https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9)
+- For displaying PDFs in React, I used the following resources:
+[levelup](https://levelup.gitconnected.com/displaying-pdf-in-react-app-6e9d1fffa1a9)
 
 Additional packages are included in the package.json file.
 
