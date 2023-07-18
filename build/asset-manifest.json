@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bootcamp_React_Portfolio/static/css/main.67532615.css",
+    "main.js": "/Bootcamp_React_Portfolio/static/js/main.39202a5d.js",
+    "static/js/787.6a31599e.chunk.js": "/Bootcamp_React_Portfolio/static/js/787.6a31599e.chunk.js",
+    "static/media/Cinema-Search.PNG": "/Bootcamp_React_Portfolio/static/media/Cinema-Search.749a2a398f55fd9be666.PNG",
+    "static/media/Weather-Dashboard.png": "/Bootcamp_React_Portfolio/static/media/Weather-Dashboard.475bbe7f405835ba6898.png",
+    "static/media/Riley_ONeil_Resume.pdf": "/Bootcamp_React_Portfolio/static/media/Riley_ONeil_Resume.8c27ba22588404ef9549.pdf",
+    "static/media/image-coming-soon.jpg": "/Bootcamp_React_Portfolio/static/media/image-coming-soon.c47cefa9b7a275b90d8c.jpg",
+    "static/media/ID2.jpeg": "/Bootcamp_React_Portfolio/static/media/ID2.a7e214125641333ab944.jpeg",
+    "static/media/Tech-Blog.PNG": "/Bootcamp_React_Portfolio/static/media/Tech-Blog.4ccae533920a8d6ebf1c.PNG",
+    "static/media/Note-Taker.PNG": "/Bootcamp_React_Portfolio/static/media/Note-Taker.b23951743ed336e08faa.PNG",
+    "index.html": "/Bootcamp_React_Portfolio/index.html",
+    "main.67532615.css.map": "/Bootcamp_React_Portfolio/static/css/main.67532615.css.map",
+    "main.39202a5d.js.map": "/Bootcamp_React_Portfolio/static/js/main.39202a5d.js.map",
+    "787.6a31599e.chunk.js.map": "/Bootcamp_React_Portfolio/static/js/787.6a31599e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67532615.css",
+    "static/js/main.39202a5d.js"
+  ]
+}
