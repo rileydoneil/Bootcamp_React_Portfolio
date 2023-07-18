@@ -1,0 +1,27 @@
+.circle-image {
+    width: 200px; /* Set the desired width of your circular image */
+    height: 200px; /* Set the desired height of your circular image */
+    border-radius: 50%; /* This creates the circular shape */
+    overflow: hidden; /* This hides any part of the image outside the circle */
+}
+  
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image fills the circular container without stretching */
+}
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    max-width: 40%;
+}

@@ -21,8 +21,13 @@ const Resume = () => {
         flexDirection: 'column',
     };
 
+    const viewheight = {
+        minHeight: 'fit-content',
+        marginBottom: '10vh',
+    }
+
     return (
-        <div >
+        <div style={viewheight}>
             <div style={centerStyle}>
                 <h3>Click this button to download</h3>
                 <Button 
@@ -32,7 +37,7 @@ const Resume = () => {
                     sx={{backgroundColor: '#84DCC6' }}
                     >Download
                 </Button>
-            <h3>Here is my Resume from a glance:</h3>
+                <h3>Here is my Resume from a glance:</h3>
             </div>
             <iframe src={resume} style={iFrameStyle}></iframe>
         </div>

@@ -4,6 +4,9 @@
     text-align: center;
     letter-spacing: 1px;
     margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 .footer_icons {
