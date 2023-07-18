@@ -1,0 +1,59 @@
+.outline-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--green-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.name-email-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 49%; /* Adjust this value if you need some spacing between the fields */
+}
+
+.name-email-container .MuiFormControl-root {
+    width: 100%; /* Adjust this value if you need some spacing between the name and email fields */
+}
+
+.subject-field {
+    width: 100%;
+}
+
+.message-field {
+    width: 100%;
+}
+
+.form .MuiOutlinedInput-notchedOutline {
+    border-color: var(--green-color);
+    color: var(--green-color);
+}
+
+.form .MuiFormLabel-root {
+    color: var(--green-color);
+}
+
+.form .MuiFormLabel-root.Mui-focused {
+    color: var(--green-color);
+    border-width: medium;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust the width for mobile screens */
+    .outline-box {
+      width: 80%; /* You can adjust this value as per your preference */
+    }
+  }

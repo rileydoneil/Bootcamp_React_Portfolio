@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TextField } from '@material-ui/core';
 import './style.css';
+import Button from '@mui/material/Button'
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -32,7 +33,6 @@ function Form() {
       const inputValue = target.value;
 
       // Based on the input type, we set the state of either email, name, and password
-      // TODO: Add an else statement to the end that will set the password to the value of 'inputValue'
         
       if (inputType === 'email') {
         setEmail(inputValue);
@@ -91,32 +91,36 @@ function Form() {
       
 
   return (
-    <div>
+    <div className='outline-box'>
+      <br />
       <form className="form">
-        <TextField
-          label="Name"
-          name='name'
-          value={name}
-          onChange={handleInputChange}
-          onBlur={handleTextBlur}
-          required
-          error={isNameEmpty}
-          helperText={isNameEmpty ? 'Name is required ' : ''}
-          variant='outlined'
-        />
-        <br />
-        <TextField
-          label="Email"
-          name='email'
-          value={email}
-          onChange={handleInputChange}
-          onBlur={handleTextBlur}
-          required
-          error={isEmailEmpty}
-          helperText={isEmailEmpty ? 'Email is required' : ''}
-          variant='outlined'
-        />
-        <br />
+        <div className='name-email-container'>
+          <TextField
+            label="Name"
+            name='name'
+            value={name}
+            onChange={handleInputChange}
+            onBlur={handleTextBlur}
+            required
+            error={isNameEmpty}
+            helperText={isNameEmpty ? 'Name is required ' : ''}
+            variant='outlined'
+            className='name-field'
+          />
+          <TextField
+            label="Email"
+            name='email'
+            value={email}
+            onChange={handleInputChange}
+            onBlur={handleTextBlur}
+            required
+            error={isEmailEmpty}
+            helperText={isEmailEmpty ? 'Email is required' : ''}
+            variant='outlined'
+            className='email-field'
+          />
+        </div>
+        
         <TextField
           label="Subject"
           name='subject'
@@ -127,6 +131,7 @@ function Form() {
           error={isSubjectEmpty}
           helperText={isSubjectEmpty ? 'Subject is required' : ''}
           variant='outlined'
+          className='subject-field'
         />
         <br />
         <TextField
@@ -141,11 +146,20 @@ function Form() {
           multiline
           rows={4}
           variant='outlined'
+          className='message-field'
+          InputProps={{
+            style: { color: '#84DCC6' },
+          }}
         />
+        <br />
           
-          <button type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
+        <Button 
+          type="button" 
+          onClick={handleFormSubmit} 
+          variant="outlined" 
+          sx={{backgroundColor: '#84DCC6' }}
+          >Submit
+        </Button>
       </form>
       {errorMessage && (
         <div>

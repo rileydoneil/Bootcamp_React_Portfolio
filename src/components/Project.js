@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     width: '100%',
     objectFit: 'cover',
+    borderRadius: '1px',
   },
   Style: {
     fontSize: '1.5rem',
@@ -31,8 +32,14 @@ function GridItem({ classes, title, g_link, d_link, img_link }) {
       <Grid item xs={12} sm={6} md={3}>
         <Paper className={classes.paper}>{title}
         <img src={img_link} alt={title} className={classes.Media} />
-        <a href={d_link}><BsFillSendFill /></a>
-        <a href={g_link}><BsGithub /></a>
+        {g_link && (
+          <a href={g_link}><BsGithub /></a>
+        )}
+        
+        {d_link && (
+          <a href={d_link}><BsFillSendFill /></a>
+        )}
+
         </Paper>
       </Grid>
     );

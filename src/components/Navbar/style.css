@@ -41,7 +41,22 @@ nav a {
     border-bottom: 2px solid;
 }
 
-
 html {
     background-color: var(--primary-color);
 }
+
+@media screen and (max-width: 768px) {
+    /* Adjust the width for mobile screens */
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+      border-bottom: none; 
+
+    }
+
+    
+  }
