@@ -9,7 +9,6 @@ Welcome to the Bootcamp React Portfolio repository! This project showcases a per
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Credits](#credits)
 - [License](#license)
