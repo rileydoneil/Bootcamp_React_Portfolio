@@ -1,4 +1,6 @@
+
 # Bootcamp React Portfolio
+
 
 ## Overview
 
@@ -52,6 +54,4 @@ Additional packages are included in the package.json file.
 ## License
 [![License: MIT license](https://img.shields.io/badge/License-MIT_license-success)](https://opensource.org/licenses/MIT)    
 
-# UC Berkeley Coding Boot Camp Project 3
-## Resources
 
