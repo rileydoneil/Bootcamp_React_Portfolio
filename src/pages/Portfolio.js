@@ -66,9 +66,9 @@ const Portfolio = () => {
     const dev = [
         {
             id: 1,
-            title: "Note Taking with Express",
-            g_link: "https://github.com/rileydoneil/Bootcamp_PWA_Text_Editor",
-            d_link: "https://notetakingapp1212.herokuapp.com/",
+            title: "React Learning Platform: Learnify",
+            g_link: "https://github.com/UserOlena/Learnify",
+            d_link: "https://learnify-7e031704dc94.herokuapp.com/",
             img_link: NoteTaker
         },
         {
